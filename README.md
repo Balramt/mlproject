@@ -1,1 +1,2 @@
-## END to END Machine Learning Projects
+## END to END Machine Learning Projectsgi
+# Setup.py file  : setup.py is a script used in Python projects to define the metadata about the project, such as its name, version, author, and dependencies. This file is commonly used with the setuptools library to create distributable packages, handle the installation process, and manage project metadata. In summary, setup.py is a crucial file in Python projects using setuptools as it encapsulates essential information about the project, making it easy to distribute and install. It's a fundamental part of creating Python packages that can be easily shared and installed by others.
