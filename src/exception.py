@@ -1,7 +1,6 @@
 import sys  #The sys module in Python provides various functions and variables that are used to manipulate different parts of the Python runtime environment.
 
 
-
 def error_message_detail(error, error_detail:sys):
     #exc_tb  will stored all the information like which file, and line number and might be reason of excpetion is stored in this variable
     _,_,exc_tb = error_detail.exc_info() # here first two info of exception is not consider as you can see'_'
@@ -21,4 +20,5 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
+
 
